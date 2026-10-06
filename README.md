@@ -34,13 +34,23 @@ Recherche du livre n° 2 :
 Livre{id=2, titre='Le Dernier Jour d'un condamné', prix=65.50 MAD}
 ```
 
+## Captures d'exécution
+
+Création de la table `LIVRES`, insertion des trois livres et affichage du catalogue :
+
+![Création de la table et affichage du catalogue](docs/screenshots/insertion-et-catalogue.png)
+
+Recherche du livre n° 2 et fin de l'exécution avec `BUILD SUCCESS` :
+
+![Recherche par identifiant et exécution réussie](docs/screenshots/recherche-et-build-success.png)
+
 ## Console H2
 
 ```sh
 mvn compile exec:java "-Dexec.args=--console"
 ```
 
-Garder le terminal ouvert et accéder à [la console H2](http://localhost:8082). Utiliser les paramètres suivants :
+Garder le terminal ouvert et accéder à [la console H2](http://localhost:8082). Le port de la console est fixé à **8082**. Ce lien fonctionne sur l'ordinateur où l'application est lancée. Utiliser les paramètres suivants :
 
 | Paramètre | Valeur |
 | --- | --- |
