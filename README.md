@@ -33,4 +33,8 @@ Cliquer sur **Connect**, puis exécuter :
 SELECT * FROM LIVRES ORDER BY ID;
 ```
 
+Résultat de la requête `SELECT * FROM LIVRES;` dans la console H2, avec les trois livres enregistrés :
+
+![Table LIVRES et ses trois enregistrements dans la console H2](docs/screenshots/table-livres-h2.png)
+
 Garder l'application lancée pendant la consultation. Appuyer sur Entrée dans le terminal pour arrêter la console. La base est en mémoire : les données disparaissent à l'arrêt du processus Java.
